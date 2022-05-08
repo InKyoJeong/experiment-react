@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { flushSync } from "react-dom";
+// import { flushSync } from "react-dom";
 
 const App = () => {
   console.log("---실행됨---");
@@ -7,14 +7,14 @@ const App = () => {
   const [counter, setCounter] = useState(0);
 
   const handleIncreaseCounter = () => {
-    flushSync(() => {
-      setCounter((prev) => prev + 1);
-    });
-    flushSync(() => {
-      setCounter((prev) => prev + 2);
-    });
-    // setCounter((prev) => prev + 1);
-    // setCounter((prev) => prev + 2);
+    // flushSync(() => {
+    //   setCounter((prev) => prev + 1);
+    // });
+    // flushSync(() => {
+    //   setCounter((prev) => prev + 2);
+    // });
+    setCounter((prev) => prev + 1);
+    setCounter((prev) => prev + 2);
   };
 
   const handleDelayIncreaseCounter = () => {
