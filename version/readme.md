@@ -2,4 +2,4 @@
 
 - batching
 - useTransition
-- useSyncExternalStore
+- useSyncExternalStore (tearing)
