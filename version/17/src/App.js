@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   console.log("---실행됨---");
@@ -21,7 +21,7 @@ const App = () => {
     <div>
       <button onClick={handleIncreaseCounter}>증가</button>
       <button onClick={handleDelayIncreaseCounter}>1초후 증가</button>
-      <div style={{ fontSize: 30 }}>counter : {counter}</div>
+      <h1>counter : {counter}</h1>
     </div>
   );
 };

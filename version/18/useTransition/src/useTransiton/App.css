@@ -1,0 +1,28 @@
+div {
+  margin: 0;
+}
+input {
+  width: 80%;
+  height: 50px;
+  margin: 20px auto;
+  padding-left: 10px;
+  border: 3px solid rgb(187, 137, 137);
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 4px);
+  padding: 10px;
+}
+
+.item {
+  margin-bottom: 2px;
+  width: 80px;
+  list-style: none;
+  background-color: rgb(51, 88, 252);
+  width: 3px;
+  height: 3px;
+}
