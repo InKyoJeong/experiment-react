@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import SimpleCountApp from "./App";
 import TodosApp from "./App";
 import TearingMouseApp from "./concurrentRendering/TearingMouseApp";
 import CounterApp from "./CounterApp";
@@ -7,4 +8,4 @@ import CounterApp from "./CounterApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<TodosApp />);
-root.render(<CounterApp />);
+root.render(<SimpleCountApp />);
